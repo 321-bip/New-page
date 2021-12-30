@@ -7,7 +7,7 @@ function mensagemUsuario(){
               
 function redireciona(){
 
-    let link = "https://321-bip.github.io/321-bip-portfolio/"
+    let link = "https://321-bip.github.io/New-page/"
     let input4 = document.getElementById("capitura").elements[4]
         input4.setAttribute("value",link)
         mensagemUsuario() 
