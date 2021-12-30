@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>portifolio</title>
+</head>
+
+<body onload="precaregar()">
+ <main> 
+    <header id="cabesalho">
+        <h1>Dev_Front_End</h1>
+        <nav id="links-cabesalho">
+            <a href="#home">Home</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contatos</a>
+        </nav>
+    </header>
+    <section id="home">
+      <h1 id="titulo-home">Home</h1>
+        <div id="conteiner-home">
+      
+          <div id="conteiner-frase" class="item item2">
+              <div>
+                  <p>“Medir o progresso da programação por linhas de código é como medir o progresso da <br>construção de aeronaves em termos de peso.”
+                  <br> <strong>Bill Gates</strong></p>
+              </div>
+          </div class="item item3">
+
+          <div id="conteiner-slide">
+              <div id="slide"></div>
+          </div>
+
+        </div>
+    </section>
+
+      <section id="projetos">
+          <h1 id="titulo-projetos">Projetos</h1>
+          <div id="conteiner-projetos">
+              <nav id="lista-de-projetos">
+                  <a href="https://321-bip.github.io/jogo-da-forca-git/" target="link-projetos">Jogo da forca</a>
+                  <a href="https://321-bip.github.io/jogo-da-velha/" target="link-projetos" >Jogo da velha</a>
+                  <a href="https://321-bip.github.io/Relogio/"  target="link-projetos">Relogio</a>
+              </nav>
+              <div>
+                  <iframe name="link-projetos"></iframe>
+              </div>
+          </div>
+      </section>
+
+      <section id="sobre">
+          <h1>Sobre</h1>
+          <p>Em buscade nova oportunidade de trabalho na área de tecnologia,
+                  apresento-lhes meu Portfolio. Entre minhas características 
+                  básicas encontram-se: adaptabilidade, bom humor, dinamismo, responsabilidades, perfeccionismo,
+                  dedicação ao trabalho e bom relacionamento interpessoal. de acordo com a necessidade da organização.
+                  No aguardo de contato, coloco-me à disposição para prestar-lhes mais esclarecimentos.</p>
+      </section>
+
+      <section id="contato">
+        <h1>Contato</h1>  
+        <div id="form" class="formulario">
+            <form action="https://api.staticforms.xyz/submit" method="Post" id="capitura" name="f1">
+                <input type="hidden" name="accessKey" value="4ba800fb-38a3-4303-be45-ae35657adb8f">
+    
+                <label for="area-nome" id="area-nome" class="labelNome" >Nome:</label>
+                <input type="text"  placeholder="nome" name="name" id="area-nome" class="inputNome" required >
+                <span></span>
+    
+                <label for="area-email" class="labelEmail">Email:</label>
+                <input type="email" placeholder="email" name="email" id="area-email" class="inputEmail"required >
+                <span></span>
+                
+                <label for="area-mensagem" class="labelCaixa">Mensagem:</label>
+                <textarea name="message" id="area-mensagem" class="inputCaixa" cols="30" rows="10" required></textarea>
+                <span></span>
+    
+                <input type="hidden" name="redirectTo" >
+    
+                <button type="submit" value="submit" id="area-enviar" class="botaoEnviar">Enviar</button>
+            </form>
+        </div>
+      </section>
+    <footer id="rodape">
+        <a id="linkedin" href="https://www.linkedin.com/feed/"></a>
+        <a id="git"  href="https://github.com/"></a>
+    </footer>
+ </main>   
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="contato.js"></script>
+</body>
+</html>
