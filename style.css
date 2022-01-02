@@ -219,15 +219,23 @@ footer{
 
 }
 
-iframe{
+.gif{
   display: inline-block;
  /* background-color: cyan;*/
   width: 500px;
   height: 550px;
   background-size: 100% 100%;
-  background-image: url(img/seta.gif.gif);
+  background-image:url(img/seta.gif.gif);
   border:none;
 }
+
+iframe{
+   display: inline-block;
+   width: 500px;
+   height: 550px;
+   border:none;
+}
+
 #lista-de-projetos{
   display: flex;
   flex-direction: column;
