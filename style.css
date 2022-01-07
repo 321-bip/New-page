@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
+
 *{
    margin: 0px;
    padding: 0px;
@@ -18,7 +19,7 @@ main{
  body{
   height: 100%;
   font-size: 100%;
- background-color: #169ddd
+ background-color: #169ddd;
   
  }
  h1,a,p{
@@ -45,6 +46,7 @@ main{
  header{
    display: block;
    width: 100%;
+   height: 8%;
    position: fixed;
    top: 0px;
    background-color: #424dca;
@@ -58,10 +60,7 @@ main{
    cursor: pointer;
    
  }
- /*header{
-   position: fixed;
-   width: 100%;
- }*/
+ 
 #cabesalho{
     display:flex;
     flex-direction:row;
@@ -81,10 +80,8 @@ main{
 #home{
  display: inline-block;
  width: 100%;
- height: 500px;
+ height: 775px;
  margin-top: 80px;
- border-bottom: solid 0.5px rgba(255, 255, 255, 0.966);
-/* background-color: thistle;*/
 }
 #conteiner-home{
     display: flex;
@@ -159,7 +156,7 @@ main{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 2mm;
+  padding: 0.4%;
   gap:30px;
  /* background-color: blanchedalmond;*/
 }
@@ -173,6 +170,7 @@ footer a{
 footer{
   display: block;
   width: 100%;
+  height: 9%;
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
@@ -200,9 +198,7 @@ footer{
 #projetos{
   display: block;
   width: 100%;
-  height: 660px;
-  border-bottom: solid 0.5px white;
- /* background-color: brown;*/
+  height:775px;
 }
 #conteiner-projetos{
   display: flex;
@@ -250,11 +246,10 @@ iframe{
 #sobre{
   display: inline-block;
   width: 100%;
-  height: 500px;
+  height: 775px;
   text-align: center;
   padding-top: 0px;
   line-height: 2em;
-  border-bottom: solid 0.5px white;
 }
 
 #sobre h1{
@@ -277,7 +272,8 @@ iframe{
 #contato{
   display: block;
   width: 100%;
-  height: 500px;
+  height: 775px;
+  
 }
 
 #contato h1{
@@ -297,14 +293,15 @@ form{
   flex-direction: column;
   width: 30%;
   gap: 5px;
-  border:solid 0.5px black;
+  border:solid 0.5px rgb(3, 31, 82);
+  border-radius: 20px;
   padding: 10px;
-  background-color: rgb(89, 89, 204);
+  background-color: #077eb6;
   color: white;
 }
 
 input,textarea,button{
-  background-color: rgb(8, 2, 2);
+  background-color: rgb(66, 77, 202, 1);
   color: white;
 }
 
