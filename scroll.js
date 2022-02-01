@@ -33,3 +33,5 @@ function man(){
    percorerElemento();
 }
 man();
+
+/* teste */
