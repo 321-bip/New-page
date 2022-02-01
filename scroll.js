@@ -5,7 +5,7 @@ function percorerElemento()
 
          listaElementos.forEach((elemento) => {
          elemento.addEventListener('click', rolagemDaPagina)
-     })
+         })
  }
   
 

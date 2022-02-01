@@ -12,7 +12,6 @@ body{
   background-color: #169ddd;
 }
 
-
 main{
   display:flex;
   flex-direction: column;
@@ -323,7 +322,8 @@ input,textarea,button{
     flex-direction:column-reverse;
     justify-content: center;
     align-items: center;
-    margin-top:50px;
+    margin-top:20px;
+    padding: 0%;
    
   }
   
@@ -341,7 +341,26 @@ input,textarea,button{
      font-size: clamp(2em, 1em + 1vw, 3em); 
      line-height: 1em;
     }
-    main{
-      background-color: brown;
-    }
+  #conteiner-projetos{
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+  }
+  #titulo-projetos{
+       margin-top: 20px;
+  }
+  #lista-de-projetos{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    padding-top: 0;
+  }
+  #sobre{
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+  }
+   
 }
