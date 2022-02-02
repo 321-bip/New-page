@@ -28,10 +28,11 @@ function rolagemSuave()
          tagHtml.style.scrollBehavior = ' smooth';
  }
 
-function man(){
-   rolagemSuave()
-   percorerElemento();
-}
+function man()
+ {
+    rolagemSuave()
+    percorerElemento();
+ }
 man();
 
 /* teste3 */
