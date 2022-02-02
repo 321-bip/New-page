@@ -35,4 +35,3 @@ function man()
  }
 man();
 
-/* teste3 */
