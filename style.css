@@ -22,6 +22,10 @@ main{
   height: 100%;
 }
 
+section{
+  border-bottom: solid 0.5px white;
+}
+
  h1,a,p{
    color: white !important;
  }
@@ -79,7 +83,7 @@ a:hover{
 #home{
  display:block;
  width: 100%;
- height: 775px;
+ height: 765px;
  margin-top: 80px;
 }
 
@@ -198,15 +202,14 @@ footer{
 #projetos{
   display: block;
   width: 100%;
-  height:775px;
+  height:765px;
 }
 #conteiner-projetos{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content:space-around;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 10%;
 }
 #titulo-projetos{
   display: block;
@@ -216,8 +219,8 @@ footer{
 
 .gif{
   display: inline-block;
-  width: 500px;
-  height: 550px;
+  width: 20%;
+  height: 50%;
   background-size: 100% 100%;
   background-image:url(img/seta.gif.gif);
   border:none;
@@ -228,20 +231,21 @@ iframe{
    width: 500px;
    height: 550px;
    border:none;
+   background-color: rgb(222, 211, 231);
 }
 
 #lista-de-projetos{
   display: flex;
   flex-direction: column;
   gap: 30px;
-  height: 550px;
+  height: 100%;
   padding: 15px;
 }
 /*style area sobre*/
 #sobre{
   display: inline-block;
   width: 100%;
-  height: 775px;
+  height: 765px;
   text-align: center;
   padding-top: 0px;
   line-height: 2em;
@@ -257,11 +261,12 @@ iframe{
 #sobre p{
   display: inline-block;
   width: 100%;
+  height: 90%;
   text-align: center;
   margin-top: 60px;
   line-height: 1.5em;
   padding: 50px;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 /* style area contato*/
@@ -269,7 +274,7 @@ iframe{
 #contato{
   display: block;
   width: 100%;
-  height: 775px;
+  height: 900px;
 }
 
 #contato h1{
@@ -343,7 +348,7 @@ input,textarea,button{
     }
   #conteiner-projetos{
     flex-direction:column;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     margin-top:10px;
   }
@@ -353,14 +358,19 @@ input,textarea,button{
   #lista-de-projetos{
     display: flex;
     flex-direction: row;
-    height: 100px;
-    padding-top: 0;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-block-start: 0;
   }
   #sobre{
     flex-direction:column;
     justify-content: center;
     align-items: center;
     margin-top:50px;
+  }
+  #contato h1{
+    margin-top:20px;
   }
    
 }
